@@ -8,5 +8,5 @@ var server = http.createServer(function(req, res) {
 })
 
 server.listen(8080, function() {
-	console.log('Docker DEMO with Node.js is running.')
+	console.log('Docker DEMO with Node.js is running, haha')
 })
