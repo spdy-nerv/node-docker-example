@@ -4,7 +4,7 @@ var server = http.createServer(function(req, res) {
 	res.writeHead(200, {
 		'Content-Type': 'text/plain'
 	})
-	res.end('Hello dev/0.0.4!')
+	res.end('Hello dev/0.0.5, ooo!')
 })
 
 server.listen(8080, function() {
